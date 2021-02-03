@@ -1,0 +1,424 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/client/ClientForm renders client form correctly 1`] = `
+<ClientForm
+  formActionDispatch={[Function]}
+  initialData={
+    Object {
+      "name": "Hi",
+    }
+  }
+>
+  <Formik
+    enableReinitialize={false}
+    initialValues={
+      Object {
+        "name": "Hi",
+      }
+    }
+    isInitialValid={false}
+    onSubmit={[Function]}
+    render={[Function]}
+    validateOnBlur={true}
+    validateOnChange={true}
+  >
+    <div>
+      <Form
+        onSubmit={[Function]}
+        tag="form"
+      >
+        <form
+          className=""
+          onSubmit={[Function]}
+        >
+          <FormGroup
+            className="row"
+            tag="div"
+          >
+            <div
+              className="row position-relative form-group"
+            >
+              <Col
+                sm="12"
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <div
+                  className="col-sm-12"
+                >
+                  <Input
+                    aria-label="name"
+                    bsSize="lg"
+                    className=""
+                    name="name"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    placeholder="Client Name"
+                    type="text"
+                    value="Hi"
+                  >
+                    <input
+                      aria-label="name"
+                      className="form-control-lg form-control"
+                      name="name"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      placeholder="Client Name"
+                      type="text"
+                      value="Hi"
+                    />
+                  </Input>
+                </div>
+              </Col>
+            </div>
+          </FormGroup>
+          <FormGroup
+            className="row mt-5"
+            tag="div"
+          >
+            <div
+              className="row mt-5 position-relative form-group"
+            >
+              <Col
+                md={
+                  Object {
+                    "offset": 1,
+                    "size": 5,
+                  }
+                }
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <div
+                  className="col-md-5 offset-md-1"
+                >
+                  <Button
+                    aria-label="Cancel"
+                    className="btn btn-secondary btn-block"
+                    color="secondary"
+                    onClick={[Function]}
+                    tag="button"
+                  >
+                    <button
+                      aria-label="Cancel"
+                      className="btn btn-secondary btn-block btn btn-secondary"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                       
+                      Cancel
+                       
+                    </button>
+                  </Button>
+                </div>
+              </Col>
+              <Col
+                md={
+                  Object {
+                    "size": 5,
+                  }
+                }
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <div
+                  className="col-md-5"
+                >
+                  <Button
+                    aria-label="Save Client"
+                    className="btn btn-primary btn-block"
+                    color="secondary"
+                    disabled={false}
+                    tag="button"
+                    type="submit"
+                  >
+                    <button
+                      aria-label="Save Client"
+                      className="btn btn-primary btn-block btn btn-secondary"
+                      disabled={false}
+                      onClick={[Function]}
+                      type="submit"
+                    >
+                      Save Client
+                    </button>
+                  </Button>
+                </div>
+              </Col>
+            </div>
+          </FormGroup>
+        </form>
+      </Form>
+    </div>
+  </Formik>
+</ClientForm>
+`;
+
+exports[`containers/client/ClientForm renders client form correctly when doing an edit 1`] = `
+<ClientForm
+  formActionDispatch={[Function]}
+  initialData={
+    Object {
+      "name": "Umbrella Corporation",
+    }
+  }
+  targetId={1337}
+>
+  <Formik
+    enableReinitialize={false}
+    initialValues={
+      Object {
+        "name": "Umbrella Corporation",
+      }
+    }
+    isInitialValid={false}
+    onSubmit={[Function]}
+    render={[Function]}
+    validateOnBlur={true}
+    validateOnChange={true}
+  >
+    <div>
+      <Form
+        onSubmit={[Function]}
+        tag="form"
+      >
+        <form
+          className=""
+          onSubmit={[Function]}
+        >
+          <FormGroup
+            className="row"
+            tag="div"
+          >
+            <div
+              className="row position-relative form-group"
+            >
+              <Col
+                sm="12"
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <div
+                  className="col-sm-12"
+                >
+                  <Input
+                    aria-label="name"
+                    bsSize="lg"
+                    className=""
+                    name="name"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    placeholder="Client Name"
+                    type="text"
+                    value="Umbrella Corporation"
+                  >
+                    <input
+                      aria-label="name"
+                      className="form-control-lg form-control"
+                      name="name"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      placeholder="Client Name"
+                      type="text"
+                      value="Umbrella Corporation"
+                    />
+                  </Input>
+                </div>
+              </Col>
+            </div>
+          </FormGroup>
+          <FormGroup
+            className="row mt-5"
+            tag="div"
+          >
+            <div
+              className="row mt-5 position-relative form-group"
+            >
+              <Col
+                md={
+                  Object {
+                    "offset": 1,
+                    "size": 5,
+                  }
+                }
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <div
+                  className="col-md-5 offset-md-1"
+                >
+                  <Button
+                    aria-label="Cancel"
+                    className="btn btn-secondary btn-block"
+                    color="secondary"
+                    onClick={[Function]}
+                    tag="button"
+                  >
+                    <button
+                      aria-label="Cancel"
+                      className="btn btn-secondary btn-block btn btn-secondary"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                       
+                      Cancel
+                       
+                    </button>
+                  </Button>
+                </div>
+              </Col>
+              <Col
+                md={
+                  Object {
+                    "size": 5,
+                  }
+                }
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <div
+                  className="col-md-5"
+                >
+                  <Button
+                    aria-label="Save Client"
+                    className="btn btn-primary btn-block"
+                    color="secondary"
+                    disabled={false}
+                    tag="button"
+                    type="submit"
+                  >
+                    <button
+                      aria-label="Save Client"
+                      className="btn btn-primary btn-block btn btn-secondary"
+                      disabled={false}
+                      onClick={[Function]}
+                      type="submit"
+                    >
+                      Save Client
+                    </button>
+                  </Button>
+                </div>
+              </Col>
+            </div>
+          </FormGroup>
+        </form>
+      </Form>
+      <div>
+        <hr
+          className="my-4"
+        />
+        <Col
+          md={
+            Object {
+              "offset": 4,
+              "size": 4,
+            }
+          }
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <div
+            className="col-md-4 offset-md-4"
+          >
+            <Button
+              aria-label="DELETE CLIENT"
+              className="btn btn-secondary btn-block btn-danger center-block"
+              color="secondary"
+              onClick={[Function]}
+              tag="button"
+            >
+              <button
+                aria-label="DELETE CLIENT"
+                className="btn btn-secondary btn-block btn-danger center-block btn btn-secondary"
+                onClick={[Function]}
+                type="button"
+              >
+                DELETE CLIENT
+              </button>
+            </Button>
+          </div>
+        </Col>
+        <Modal
+          autoFocus={true}
+          backdrop={true}
+          backdropTransition={
+            Object {
+              "mountOnEnter": true,
+              "timeout": 150,
+            }
+          }
+          centered={false}
+          fade={true}
+          isOpen={false}
+          keyboard={true}
+          modalTransition={
+            Object {
+              "timeout": 300,
+            }
+          }
+          onClosed={[Function]}
+          onOpened={[Function]}
+          role="dialog"
+          toggle={[Function]}
+          zIndex={1050}
+        />
+      </div>
+    </div>
+  </Formik>
+</ClientForm>
+`;

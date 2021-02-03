@@ -1,0 +1,17 @@
+@import 'variables.scss';
+
+.kaznet-table a {
+  color: #222;
+  font-weight: 700;
+}
+
+.kaznet-table a:hover,
+.kaznet-table a:focus {
+  color: $primary-color;
+  text-decoration: none;
+}
+
+.kaznet-table .dropdown-menu .active-task {
+  background: #eee;
+  outline: none;
+}

@@ -1,0 +1,16 @@
+.bg-white .search_button {
+  border: none;
+  background-color: white;
+  padding: 0;
+}
+.bg-white .search_button:hover {
+  background-color: white;
+  border: none;
+}
+.bg-white .search_button:active {
+  background-color: white;
+  border: none;
+}
+.filtersubmit {
+  color: #c0c0c0;
+}

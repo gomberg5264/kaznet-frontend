@@ -1,0 +1,1945 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/forms/FormsList renders form list correctly 1`] = `
+<Router
+  history={
+    Object {
+      "action": "POP",
+      "block": [Function],
+      "createHref": [Function],
+      "go": [Function],
+      "goBack": [Function],
+      "goForward": [Function],
+      "length": 1,
+      "listen": [Function],
+      "location": Object {
+        "hash": "",
+        "pathname": "/",
+        "search": "",
+        "state": undefined,
+      },
+      "push": [Function],
+      "replace": [Function],
+    }
+  }
+>
+  <FormsList
+    alert={Object {}}
+    changePageNumber={[Function]}
+    changePageTarget={[Function]}
+    changePageTitle={[Function]}
+    changePageTitleButton={[Function]}
+    currentPage={1}
+    endpoint="forms"
+    errorMessage=""
+    fetchForms={[Function]}
+    firstPage={1}
+    formCount={null}
+    getHasTask={[Function]}
+    hasError={false}
+    hasTask=""
+    lastPage={2}
+    location={
+      Object {
+        "hash": "",
+        "pathname": "/",
+        "search": "",
+        "state": undefined,
+      }
+    }
+    pageLinks={
+      Object {
+        "first": "http://127.0.0.1:8000/api/v1/forms/?format=vnd.api%2Bjson&page=1",
+        "last": "http://127.0.0.1:8000/api/v1/forms/?format=vnd.api%2Bjson&page=2",
+        "next": "http://127.0.0.1:8000/api/v1/forms/?format=vnd.api%2Bjson&page=2",
+        "prev": null,
+      }
+    }
+    pageValue={1}
+    rowsById={
+      Object {
+        "1": Object {
+          "attributes": Object {
+            "created": "2018-06-21T12:15:23.170271+03:00",
+            "deleted_at": null,
+            "has_task": false,
+            "id_string": "form_1",
+            "last_updated": null,
+            "metadata": Object {
+              "configuration_status": "correctly_configured",
+              "downloadable": true,
+              "owner": "kaznet",
+              "owner_url": "http://127.0.0.1:8000/api/v1/users/kaznet",
+            },
+            "modified": "2018-06-21T12:15:23.170313+03:00",
+            "ona_pk": 1903,
+            "project_id": 4328,
+            "task_name": null,
+            "title": "Form 1",
+          },
+          "id": "1",
+          "type": "XForm",
+        },
+        "2": Object {
+          "attributes": Object {
+            "created": "2018-06-21T12:15:23.175198+03:00",
+            "deleted_at": null,
+            "has_task": false,
+            "id_string": "form_2",
+            "last_updated": null,
+            "metadata": Object {
+              "configuration_status": "correctly_configured",
+              "downloadable": false,
+              "owner": "kaznet",
+              "owner_url": "http://127.0.0.1:8000/api/v1/users/kaznet",
+            },
+            "modified": "2018-06-21T12:15:23.175232+03:00",
+            "ona_pk": 6373,
+            "project_id": 5522,
+            "task_name": null,
+            "title": "Form 2",
+          },
+          "id": "2",
+          "type": "XForm",
+        },
+        "3": Object {
+          "attributes": Object {
+            "created": "2018-06-21T12:15:23.175198+03:00",
+            "deleted_at": null,
+            "has_task": true,
+            "id_string": "form_3",
+            "last_updated": null,
+            "metadata": Object {
+              "configuration_status": "members_cannot_submit",
+              "downloadable": true,
+              "owner": "kaznet",
+              "owner_url": "http://127.0.0.1:8000/api/v1/users/kaznet",
+            },
+            "modified": "2018-06-21T12:15:23.175232+03:00",
+            "ona_pk": 6373,
+            "project_id": 5522,
+            "task_name": "Form 3 Task",
+            "title": "Form 3",
+          },
+          "id": "3",
+          "type": "XForm",
+        },
+      }
+    }
+    rowsIdArray={
+      Array [
+        "1",
+        "2",
+        "3",
+      ]
+    }
+    searchParam=""
+    searchString=""
+    searchVal={[Function]}
+    showListTitle={[Function]}
+    totalPages={2}
+  >
+    <div
+      className="FormsList"
+    >
+      <ListView
+        currentPage={1}
+        endpoint="forms"
+        firstPage={1}
+        handleChange={[Function]}
+        hasTask=""
+        isFormPage={true}
+        isOpen={false}
+        lastPage={2}
+        pageLinks={
+          Object {
+            "first": "http://127.0.0.1:8000/api/v1/forms/?format=vnd.api%2Bjson&page=1",
+            "last": "http://127.0.0.1:8000/api/v1/forms/?format=vnd.api%2Bjson&page=2",
+            "next": "http://127.0.0.1:8000/api/v1/forms/?format=vnd.api%2Bjson&page=2",
+            "prev": null,
+          }
+        }
+        renderHeaders={[Function]}
+        renderRow={[Function]}
+        rowsById={
+          Object {
+            "1": Object {
+              "attributes": Object {
+                "created": "2018-06-21T12:15:23.170271+03:00",
+                "deleted_at": null,
+                "has_task": false,
+                "id_string": "form_1",
+                "last_updated": null,
+                "metadata": Object {
+                  "configuration_status": "correctly_configured",
+                  "downloadable": true,
+                  "owner": "kaznet",
+                  "owner_url": "http://127.0.0.1:8000/api/v1/users/kaznet",
+                },
+                "modified": "2018-06-21T12:15:23.170313+03:00",
+                "ona_pk": 1903,
+                "project_id": 4328,
+                "task_name": null,
+                "title": "Form 1",
+              },
+              "id": "1",
+              "type": "XForm",
+            },
+            "2": Object {
+              "attributes": Object {
+                "created": "2018-06-21T12:15:23.175198+03:00",
+                "deleted_at": null,
+                "has_task": false,
+                "id_string": "form_2",
+                "last_updated": null,
+                "metadata": Object {
+                  "configuration_status": "correctly_configured",
+                  "downloadable": false,
+                  "owner": "kaznet",
+                  "owner_url": "http://127.0.0.1:8000/api/v1/users/kaznet",
+                },
+                "modified": "2018-06-21T12:15:23.175232+03:00",
+                "ona_pk": 6373,
+                "project_id": 5522,
+                "task_name": null,
+                "title": "Form 2",
+              },
+              "id": "2",
+              "type": "XForm",
+            },
+            "3": Object {
+              "attributes": Object {
+                "created": "2018-06-21T12:15:23.175198+03:00",
+                "deleted_at": null,
+                "has_task": true,
+                "id_string": "form_3",
+                "last_updated": null,
+                "metadata": Object {
+                  "configuration_status": "members_cannot_submit",
+                  "downloadable": true,
+                  "owner": "kaznet",
+                  "owner_url": "http://127.0.0.1:8000/api/v1/users/kaznet",
+                },
+                "modified": "2018-06-21T12:15:23.175232+03:00",
+                "ona_pk": 6373,
+                "project_id": 5522,
+                "task_name": "Form 3 Task",
+                "title": "Form 3",
+              },
+              "id": "3",
+              "type": "XForm",
+            },
+          }
+        }
+        rowsIdArray={
+          Array [
+            "1",
+            "2",
+            "3",
+          ]
+        }
+        searchVal=""
+        sortField="-modified"
+        sortOrder="desc"
+        totalPages={2}
+      >
+        <div>
+          <Table
+            bordered={true}
+            className="kaznet-table"
+            responsiveTag="div"
+            tag="table"
+          >
+            <table
+              className="kaznet-table table table-bordered"
+            >
+              <thead>
+                <tr>
+                  <ElementMap
+                    HTMLTag="th"
+                    items={
+                      Array [
+                        "Name",
+                        "Active",
+                        <Dropdown
+                          active={false}
+                          addonType={false}
+                          direction="down"
+                          inNavbar={false}
+                          isOpen={false}
+                          nav={false}
+                          setActiveFromChild={false}
+                          toggle={[Function]}
+                        >
+                          <DropdownToggle
+                            aria-haspopup={true}
+                            caret={true}
+                            className="nav-link"
+                            color="secondary"
+                            tag="span"
+                          >
+                            Task
+                          </DropdownToggle>
+                          <DropdownMenu
+                            flip={true}
+                            tag="div"
+                          >
+                            <DropdownItem
+                              tag="button"
+                              toggle={true}
+                            >
+                              <Link
+                                className="nav-link"
+                                data-key="2"
+                                replace={false}
+                                to="/forms/?search=&page=1"
+                              >
+                                All
+                              </Link>
+                            </DropdownItem>
+                            <DropdownItem
+                              tag="button"
+                              toggle={true}
+                            >
+                              <Link
+                                className="nav-link"
+                                data-key="1"
+                                replace={false}
+                                to="/forms/?search=&page=1&has_task=true"
+                              >
+                                Has Task
+                              </Link>
+                            </DropdownItem>
+                            <DropdownItem
+                              tag="button"
+                              toggle={true}
+                            >
+                              <Link
+                                className="nav-link"
+                                data-key="0"
+                                replace={false}
+                                to="/forms/?search=&page=1&has_task=false"
+                              >
+                                Does Not Have Task
+                              </Link>
+                            </DropdownItem>
+                          </DropdownMenu>
+                        </Dropdown>,
+                        "Last Modified",
+                      ]
+                    }
+                  >
+                    <th
+                      key="0"
+                    >
+                      Name
+                    </th>
+                    <th
+                      key="1"
+                    >
+                      Active
+                    </th>
+                    <th
+                      key="2"
+                    >
+                      <Dropdown
+                        active={false}
+                        addonType={false}
+                        direction="down"
+                        inNavbar={false}
+                        isOpen={false}
+                        key="dropdown"
+                        nav={false}
+                        setActiveFromChild={false}
+                        toggle={[Function]}
+                      >
+                        <Manager
+                          className="dropdown"
+                          onKeyDown={[Function]}
+                          tag="div"
+                        >
+                          <div
+                            className="dropdown"
+                            onKeyDown={[Function]}
+                          >
+                            <DropdownToggle
+                              aria-haspopup={true}
+                              caret={true}
+                              className="nav-link"
+                              color="secondary"
+                              tag="span"
+                            >
+                              <Target
+                                aria-expanded={false}
+                                aria-haspopup={true}
+                                className="nav-link dropdown-toggle"
+                                component="span"
+                                onClick={[Function]}
+                              >
+                                <span
+                                  aria-expanded={false}
+                                  aria-haspopup={true}
+                                  className="nav-link dropdown-toggle"
+                                  onClick={[Function]}
+                                >
+                                  Task
+                                </span>
+                              </Target>
+                            </DropdownToggle>
+                            <DropdownMenu
+                              flip={true}
+                              tag="div"
+                            >
+                              <div
+                                aria-hidden={true}
+                                className="dropdown-menu"
+                                role="menu"
+                                tabIndex="-1"
+                              >
+                                <DropdownItem
+                                  key="0"
+                                  tag="button"
+                                  toggle={true}
+                                >
+                                  <button
+                                    className="dropdown-item"
+                                    onClick={[Function]}
+                                    tabIndex="0"
+                                    type="button"
+                                  >
+                                    <Link
+                                      className="nav-link"
+                                      data-key="2"
+                                      key="1"
+                                      replace={false}
+                                      to="/forms/?search=&page=1"
+                                    >
+                                      <a
+                                        className="nav-link"
+                                        data-key="2"
+                                        href="/forms/?search=&page=1"
+                                        onClick={[Function]}
+                                      >
+                                        All
+                                      </a>
+                                    </Link>
+                                  </button>
+                                </DropdownItem>
+                                <DropdownItem
+                                  key="1"
+                                  tag="button"
+                                  toggle={true}
+                                >
+                                  <button
+                                    className="dropdown-item"
+                                    onClick={[Function]}
+                                    tabIndex="0"
+                                    type="button"
+                                  >
+                                    <Link
+                                      className="nav-link"
+                                      data-key="1"
+                                      key="1"
+                                      replace={false}
+                                      to="/forms/?search=&page=1&has_task=true"
+                                    >
+                                      <a
+                                        className="nav-link"
+                                        data-key="1"
+                                        href="/forms/?search=&page=1&has_task=true"
+                                        onClick={[Function]}
+                                      >
+                                        Has Task
+                                      </a>
+                                    </Link>
+                                  </button>
+                                </DropdownItem>
+                                <DropdownItem
+                                  key="2"
+                                  tag="button"
+                                  toggle={true}
+                                >
+                                  <button
+                                    className="dropdown-item"
+                                    onClick={[Function]}
+                                    tabIndex="0"
+                                    type="button"
+                                  >
+                                    <Link
+                                      className="nav-link"
+                                      data-key="0"
+                                      key="0"
+                                      replace={false}
+                                      to="/forms/?search=&page=1&has_task=false"
+                                    >
+                                      <a
+                                        className="nav-link"
+                                        data-key="0"
+                                        href="/forms/?search=&page=1&has_task=false"
+                                        onClick={[Function]}
+                                      >
+                                        Does Not Have Task
+                                      </a>
+                                    </Link>
+                                  </button>
+                                </DropdownItem>
+                              </div>
+                            </DropdownMenu>
+                          </div>
+                        </Manager>
+                      </Dropdown>
+                    </th>
+                    <th
+                      key="3"
+                    >
+                      Last Modified
+                    </th>
+                  </ElementMap>
+                </tr>
+              </thead>
+              <tbody>
+                <tr
+                  key="1"
+                >
+                  <ElementMap
+                    HTMLTag="td"
+                    items={
+                      Array [
+                        <div>
+                          Form 1
+                        </div>,
+                        "true",
+                        null,
+                        <t
+                          ago={false}
+                          calendar={false}
+                          decimal={false}
+                          element="time"
+                          filter={[Function]}
+                          format="DD-MM-YYYY HH:mm:ss"
+                          fromNow={false}
+                          interval={60000}
+                          onChange={[Function]}
+                          toNow={false}
+                          unit={null}
+                          unix={false}
+                          utc={false}
+                        >
+                          2018-06-21T12:15:23.170313+03:00
+                        </t>,
+                      ]
+                    }
+                  >
+                    <td
+                      key="0"
+                    >
+                      <div
+                        key="1"
+                      >
+                        Form 1
+                      </div>
+                    </td>
+                    <td
+                      key="1"
+                    >
+                      true
+                    </td>
+                    <td
+                      key="2"
+                    />
+                    <td
+                      key="3"
+                    >
+                      <t
+                        ago={false}
+                        calendar={false}
+                        decimal={false}
+                        element="time"
+                        filter={[Function]}
+                        format="DD-MM-YYYY HH:mm:ss"
+                        fromNow={false}
+                        interval={60000}
+                        key="1"
+                        onChange={[Function]}
+                        toNow={false}
+                        unit={null}
+                        unix={false}
+                        utc={false}
+                      >
+                        <time
+                          dateTime={"2018-06-21T09:15:23.170Z"}
+                        >
+                          21-06-2018 09:15:23
+                        </time>
+                      </t>
+                    </td>
+                  </ElementMap>
+                </tr>
+                <tr
+                  key="2"
+                >
+                  <ElementMap
+                    HTMLTag="td"
+                    items={
+                      Array [
+                        <div>
+                          Form 2
+                        </div>,
+                        "false",
+                        null,
+                        <t
+                          ago={false}
+                          calendar={false}
+                          decimal={false}
+                          element="time"
+                          filter={[Function]}
+                          format="DD-MM-YYYY HH:mm:ss"
+                          fromNow={false}
+                          interval={60000}
+                          onChange={[Function]}
+                          toNow={false}
+                          unit={null}
+                          unix={false}
+                          utc={false}
+                        >
+                          2018-06-21T12:15:23.175232+03:00
+                        </t>,
+                      ]
+                    }
+                  >
+                    <td
+                      key="0"
+                    >
+                      <div
+                        key="2"
+                      >
+                        Form 2
+                      </div>
+                    </td>
+                    <td
+                      key="1"
+                    >
+                      false
+                    </td>
+                    <td
+                      key="2"
+                    />
+                    <td
+                      key="3"
+                    >
+                      <t
+                        ago={false}
+                        calendar={false}
+                        decimal={false}
+                        element="time"
+                        filter={[Function]}
+                        format="DD-MM-YYYY HH:mm:ss"
+                        fromNow={false}
+                        interval={60000}
+                        key="2"
+                        onChange={[Function]}
+                        toNow={false}
+                        unit={null}
+                        unix={false}
+                        utc={false}
+                      >
+                        <time
+                          dateTime={"2018-06-21T09:15:23.175Z"}
+                        >
+                          21-06-2018 09:15:23
+                        </time>
+                      </t>
+                    </td>
+                  </ElementMap>
+                </tr>
+                <tr
+                  key="3"
+                >
+                  <ElementMap
+                    HTMLTag="td"
+                    items={
+                      Array [
+                        <div>
+                          Form 3
+                          <MisconfiguredForm
+                            form={
+                              Object {
+                                "attributes": Object {
+                                  "created": "2018-06-21T12:15:23.175198+03:00",
+                                  "deleted_at": null,
+                                  "has_task": true,
+                                  "id_string": "form_3",
+                                  "last_updated": null,
+                                  "metadata": Object {
+                                    "configuration_status": "members_cannot_submit",
+                                    "downloadable": true,
+                                    "owner": "kaznet",
+                                    "owner_url": "http://127.0.0.1:8000/api/v1/users/kaznet",
+                                  },
+                                  "modified": "2018-06-21T12:15:23.175232+03:00",
+                                  "ona_pk": 6373,
+                                  "project_id": 5522,
+                                  "task_name": "Form 3 Task",
+                                  "title": "Form 3",
+                                },
+                                "id": "3",
+                                "type": "XForm",
+                              }
+                            }
+                          />
+                        </div>,
+                        "true",
+                        "Form 3 Task",
+                        <t
+                          ago={false}
+                          calendar={false}
+                          decimal={false}
+                          element="time"
+                          filter={[Function]}
+                          format="DD-MM-YYYY HH:mm:ss"
+                          fromNow={false}
+                          interval={60000}
+                          onChange={[Function]}
+                          toNow={false}
+                          unit={null}
+                          unix={false}
+                          utc={false}
+                        >
+                          2018-06-21T12:15:23.175232+03:00
+                        </t>,
+                      ]
+                    }
+                  >
+                    <td
+                      key="0"
+                    >
+                      <div
+                        key="3"
+                      >
+                        Form 3
+                        <MisconfiguredForm
+                          form={
+                            Object {
+                              "attributes": Object {
+                                "created": "2018-06-21T12:15:23.175198+03:00",
+                                "deleted_at": null,
+                                "has_task": true,
+                                "id_string": "form_3",
+                                "last_updated": null,
+                                "metadata": Object {
+                                  "configuration_status": "members_cannot_submit",
+                                  "downloadable": true,
+                                  "owner": "kaznet",
+                                  "owner_url": "http://127.0.0.1:8000/api/v1/users/kaznet",
+                                },
+                                "modified": "2018-06-21T12:15:23.175232+03:00",
+                                "ona_pk": 6373,
+                                "project_id": 5522,
+                                "task_name": "Form 3 Task",
+                                "title": "Form 3",
+                              },
+                              "id": "3",
+                              "type": "XForm",
+                            }
+                          }
+                          key="3"
+                        >
+                          <span>
+                              
+                            <FontAwesomeIcon
+                              border={false}
+                              className=""
+                              color="#711c27"
+                              fixedWidth={false}
+                              flip={null}
+                              icon="exclamation-circle"
+                              id="Popover-3"
+                              listItem={false}
+                              mask={null}
+                              name=""
+                              onClick={[Function]}
+                              pull={null}
+                              pulse={false}
+                              rotation={null}
+                              size={null}
+                              spin={false}
+                              style={
+                                Object {
+                                  "cursor": "pointer",
+                                }
+                              }
+                              symbol={false}
+                              transform={null}
+                            >
+                              <svg
+                                aria-hidden="true"
+                                className="svg-inline--fa fa-exclamation-circle fa-w-16 "
+                                color="#711c27"
+                                data-icon="exclamation-circle"
+                                data-prefix="fas"
+                                id="Popover-3"
+                                onClick={[Function]}
+                                role="img"
+                                style={
+                                  Object {
+                                    "cursor": "pointer",
+                                  }
+                                }
+                                viewBox="0 0 512 512"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"
+                                  fill="currentColor"
+                                  style={Object {}}
+                                />
+                              </svg>
+                            </FontAwesomeIcon>
+                            <Popover
+                              delay={
+                                Object {
+                                  "hide": 0,
+                                  "show": 0,
+                                }
+                              }
+                              hideArrow={false}
+                              isOpen={false}
+                              placement="right"
+                              placementPrefix="bs-popover"
+                              target="Popover-3"
+                              toggle={[Function]}
+                            />
+                          </span>
+                        </MisconfiguredForm>
+                      </div>
+                    </td>
+                    <td
+                      key="1"
+                    >
+                      true
+                    </td>
+                    <td
+                      key="2"
+                    >
+                      Form 3 Task
+                    </td>
+                    <td
+                      key="3"
+                    >
+                      <t
+                        ago={false}
+                        calendar={false}
+                        decimal={false}
+                        element="time"
+                        filter={[Function]}
+                        format="DD-MM-YYYY HH:mm:ss"
+                        fromNow={false}
+                        interval={60000}
+                        key="3"
+                        onChange={[Function]}
+                        toNow={false}
+                        unit={null}
+                        unix={false}
+                        utc={false}
+                      >
+                        <time
+                          dateTime={"2018-06-21T09:15:23.175Z"}
+                        >
+                          21-06-2018 09:15:23
+                        </time>
+                      </t>
+                    </td>
+                  </ElementMap>
+                </tr>
+              </tbody>
+            </table>
+          </Table>
+          <Pagination
+            aria-label="Kaznet listview"
+            listTag="ul"
+            tag="nav"
+          >
+            <nav
+              aria-label="Kaznet listview"
+              className=""
+            >
+              <ul
+                className="pagination"
+              >
+                <PaginationItem
+                  disabled={false}
+                  tag="li"
+                >
+                  <li
+                    className="page-item"
+                  >
+                    <Link
+                      aria-label="First"
+                      className="page-link"
+                      replace={false}
+                      to="/forms/?search=&page=1"
+                    >
+                      <a
+                        aria-label="First"
+                        className="page-link"
+                        href="/forms/?search=&page=1"
+                        onClick={[Function]}
+                      >
+                        First
+                      </a>
+                    </Link>
+                  </li>
+                </PaginationItem>
+                <PaginationItem
+                  disabled={true}
+                  tag="li"
+                >
+                  <li
+                    className="page-item disabled"
+                  >
+                    <Link
+                      aria-label="Previous"
+                      className="page-link"
+                      replace={false}
+                      to="#"
+                    >
+                      <a
+                        aria-label="Previous"
+                        className="page-link"
+                        href="/"
+                        onClick={[Function]}
+                      >
+                        «
+                      </a>
+                    </Link>
+                  </li>
+                </PaginationItem>
+                <PaginationItem
+                  disabled={false}
+                  tag="li"
+                >
+                  <li
+                    className="page-item"
+                  >
+                    <Link
+                      aria-label="Next"
+                      className="page-link"
+                      replace={false}
+                      to="/forms/?search=&page=2"
+                    >
+                      <a
+                        aria-label="Next"
+                        className="page-link"
+                        href="/forms/?search=&page=2"
+                        onClick={[Function]}
+                      >
+                        »
+                      </a>
+                    </Link>
+                  </li>
+                </PaginationItem>
+                <PaginationItem
+                  disabled={false}
+                  tag="li"
+                >
+                  <li
+                    className="page-item"
+                  >
+                    <Link
+                      aria-label="Last"
+                      className="page-link"
+                      replace={false}
+                      to="/forms/?search=&page=2"
+                    >
+                      <a
+                        aria-label="Last"
+                        className="page-link"
+                        href="/forms/?search=&page=2"
+                        onClick={[Function]}
+                      >
+                        Last
+                      </a>
+                    </Link>
+                  </li>
+                </PaginationItem>
+              </ul>
+            </nav>
+          </Pagination>
+        </div>
+      </ListView>
+    </div>
+  </FormsList>
+</Router>
+`;
+
+exports[`containers/forms/FormsList renders form list correctly when there is a has_task filter 1`] = `
+<Router
+  history={
+    Object {
+      "action": "POP",
+      "block": [Function],
+      "createHref": [Function],
+      "go": [Function],
+      "goBack": [Function],
+      "goForward": [Function],
+      "length": 1,
+      "listen": [Function],
+      "location": Object {
+        "hash": "",
+        "pathname": "/",
+        "search": "",
+        "state": undefined,
+      },
+      "push": [Function],
+      "replace": [Function],
+    }
+  }
+>
+  <FormsList
+    alert={Object {}}
+    changePageNumber={[Function]}
+    changePageTarget={[Function]}
+    changePageTitle={[Function]}
+    changePageTitleButton={[Function]}
+    currentPage={1}
+    endpoint="forms"
+    errorMessage=""
+    fetchForms={[Function]}
+    firstPage={1}
+    formCount={null}
+    getHasTask={[Function]}
+    hasError={false}
+    hasTask=""
+    lastPage={2}
+    location={
+      Object {
+        "hash": "",
+        "pathname": "/",
+        "search": "",
+        "state": undefined,
+      }
+    }
+    pageLinks={
+      Object {
+        "first": "http://127.0.0.1:8000/api/v1/forms/?format=vnd.api%2Bjson&page=1",
+        "last": "http://127.0.0.1:8000/api/v1/forms/?format=vnd.api%2Bjson&page=2",
+        "next": "http://127.0.0.1:8000/api/v1/forms/?format=vnd.api%2Bjson&page=2",
+        "prev": null,
+      }
+    }
+    pageValue={1}
+    rowsById={
+      Object {
+        "1": Object {
+          "attributes": Object {
+            "created": "2018-06-21T12:15:23.170271+03:00",
+            "deleted_at": null,
+            "has_task": false,
+            "id_string": "form_1",
+            "last_updated": null,
+            "metadata": Object {
+              "configuration_status": "correctly_configured",
+              "downloadable": true,
+              "owner": "kaznet",
+              "owner_url": "http://127.0.0.1:8000/api/v1/users/kaznet",
+            },
+            "modified": "2018-06-21T12:15:23.170313+03:00",
+            "ona_pk": 1903,
+            "project_id": 4328,
+            "task_name": null,
+            "title": "Form 1",
+          },
+          "id": "1",
+          "type": "XForm",
+        },
+        "2": Object {
+          "attributes": Object {
+            "created": "2018-06-21T12:15:23.175198+03:00",
+            "deleted_at": null,
+            "has_task": false,
+            "id_string": "form_2",
+            "last_updated": null,
+            "metadata": Object {
+              "configuration_status": "correctly_configured",
+              "downloadable": false,
+              "owner": "kaznet",
+              "owner_url": "http://127.0.0.1:8000/api/v1/users/kaznet",
+            },
+            "modified": "2018-06-21T12:15:23.175232+03:00",
+            "ona_pk": 6373,
+            "project_id": 5522,
+            "task_name": null,
+            "title": "Form 2",
+          },
+          "id": "2",
+          "type": "XForm",
+        },
+        "3": Object {
+          "attributes": Object {
+            "created": "2018-06-21T12:15:23.175198+03:00",
+            "deleted_at": null,
+            "has_task": true,
+            "id_string": "form_3",
+            "last_updated": null,
+            "metadata": Object {
+              "configuration_status": "members_cannot_submit",
+              "downloadable": true,
+              "owner": "kaznet",
+              "owner_url": "http://127.0.0.1:8000/api/v1/users/kaznet",
+            },
+            "modified": "2018-06-21T12:15:23.175232+03:00",
+            "ona_pk": 6373,
+            "project_id": 5522,
+            "task_name": "Form 3 Task",
+            "title": "Form 3",
+          },
+          "id": "3",
+          "type": "XForm",
+        },
+      }
+    }
+    rowsIdArray={
+      Array [
+        "1",
+        "2",
+        "3",
+      ]
+    }
+    searchParam=""
+    searchString=""
+    searchVal={[Function]}
+    showListTitle={[Function]}
+    totalPages={2}
+  >
+    <div
+      className="FormsList"
+    >
+      <ListView
+        currentPage={1}
+        endpoint="forms"
+        firstPage={1}
+        handleChange={[Function]}
+        hasTask=""
+        isFormPage={true}
+        isOpen={false}
+        lastPage={2}
+        pageLinks={
+          Object {
+            "first": "http://127.0.0.1:8000/api/v1/forms/?format=vnd.api%2Bjson&page=1",
+            "last": "http://127.0.0.1:8000/api/v1/forms/?format=vnd.api%2Bjson&page=2",
+            "next": "http://127.0.0.1:8000/api/v1/forms/?format=vnd.api%2Bjson&page=2",
+            "prev": null,
+          }
+        }
+        renderHeaders={[Function]}
+        renderRow={[Function]}
+        rowsById={
+          Object {
+            "1": Object {
+              "attributes": Object {
+                "created": "2018-06-21T12:15:23.170271+03:00",
+                "deleted_at": null,
+                "has_task": false,
+                "id_string": "form_1",
+                "last_updated": null,
+                "metadata": Object {
+                  "configuration_status": "correctly_configured",
+                  "downloadable": true,
+                  "owner": "kaznet",
+                  "owner_url": "http://127.0.0.1:8000/api/v1/users/kaznet",
+                },
+                "modified": "2018-06-21T12:15:23.170313+03:00",
+                "ona_pk": 1903,
+                "project_id": 4328,
+                "task_name": null,
+                "title": "Form 1",
+              },
+              "id": "1",
+              "type": "XForm",
+            },
+            "2": Object {
+              "attributes": Object {
+                "created": "2018-06-21T12:15:23.175198+03:00",
+                "deleted_at": null,
+                "has_task": false,
+                "id_string": "form_2",
+                "last_updated": null,
+                "metadata": Object {
+                  "configuration_status": "correctly_configured",
+                  "downloadable": false,
+                  "owner": "kaznet",
+                  "owner_url": "http://127.0.0.1:8000/api/v1/users/kaznet",
+                },
+                "modified": "2018-06-21T12:15:23.175232+03:00",
+                "ona_pk": 6373,
+                "project_id": 5522,
+                "task_name": null,
+                "title": "Form 2",
+              },
+              "id": "2",
+              "type": "XForm",
+            },
+            "3": Object {
+              "attributes": Object {
+                "created": "2018-06-21T12:15:23.175198+03:00",
+                "deleted_at": null,
+                "has_task": true,
+                "id_string": "form_3",
+                "last_updated": null,
+                "metadata": Object {
+                  "configuration_status": "members_cannot_submit",
+                  "downloadable": true,
+                  "owner": "kaznet",
+                  "owner_url": "http://127.0.0.1:8000/api/v1/users/kaznet",
+                },
+                "modified": "2018-06-21T12:15:23.175232+03:00",
+                "ona_pk": 6373,
+                "project_id": 5522,
+                "task_name": "Form 3 Task",
+                "title": "Form 3",
+              },
+              "id": "3",
+              "type": "XForm",
+            },
+          }
+        }
+        rowsIdArray={
+          Array [
+            "1",
+            "2",
+            "3",
+          ]
+        }
+        searchVal=""
+        sortField="-modified"
+        sortOrder="desc"
+        totalPages={2}
+      >
+        <div>
+          <Table
+            bordered={true}
+            className="kaznet-table"
+            responsiveTag="div"
+            tag="table"
+          >
+            <table
+              className="kaznet-table table table-bordered"
+            >
+              <thead>
+                <tr>
+                  <ElementMap
+                    HTMLTag="th"
+                    items={
+                      Array [
+                        "Name",
+                        "Active",
+                        <Dropdown
+                          active={false}
+                          addonType={false}
+                          direction="down"
+                          inNavbar={false}
+                          isOpen={false}
+                          nav={false}
+                          setActiveFromChild={false}
+                          toggle={[Function]}
+                        >
+                          <DropdownToggle
+                            aria-haspopup={true}
+                            caret={true}
+                            className="nav-link"
+                            color="secondary"
+                            tag="span"
+                          >
+                            Task
+                          </DropdownToggle>
+                          <DropdownMenu
+                            flip={true}
+                            tag="div"
+                          >
+                            <DropdownItem
+                              tag="button"
+                              toggle={true}
+                            >
+                              <Link
+                                className="nav-link"
+                                data-key="2"
+                                replace={false}
+                                to="/forms/?search=&page=1"
+                              >
+                                All
+                              </Link>
+                            </DropdownItem>
+                            <DropdownItem
+                              tag="button"
+                              toggle={true}
+                            >
+                              <Link
+                                className="nav-link"
+                                data-key="1"
+                                replace={false}
+                                to="/forms/?search=&page=1&has_task=true"
+                              >
+                                Has Task
+                              </Link>
+                            </DropdownItem>
+                            <DropdownItem
+                              tag="button"
+                              toggle={true}
+                            >
+                              <Link
+                                className="nav-link"
+                                data-key="0"
+                                replace={false}
+                                to="/forms/?search=&page=1&has_task=false"
+                              >
+                                Does Not Have Task
+                              </Link>
+                            </DropdownItem>
+                          </DropdownMenu>
+                        </Dropdown>,
+                        "Last Modified",
+                      ]
+                    }
+                  >
+                    <th
+                      key="0"
+                    >
+                      Name
+                    </th>
+                    <th
+                      key="1"
+                    >
+                      Active
+                    </th>
+                    <th
+                      key="2"
+                    >
+                      <Dropdown
+                        active={false}
+                        addonType={false}
+                        direction="down"
+                        inNavbar={false}
+                        isOpen={false}
+                        key="dropdown"
+                        nav={false}
+                        setActiveFromChild={false}
+                        toggle={[Function]}
+                      >
+                        <Manager
+                          className="dropdown"
+                          onKeyDown={[Function]}
+                          tag="div"
+                        >
+                          <div
+                            className="dropdown"
+                            onKeyDown={[Function]}
+                          >
+                            <DropdownToggle
+                              aria-haspopup={true}
+                              caret={true}
+                              className="nav-link"
+                              color="secondary"
+                              tag="span"
+                            >
+                              <Target
+                                aria-expanded={false}
+                                aria-haspopup={true}
+                                className="nav-link dropdown-toggle"
+                                component="span"
+                                onClick={[Function]}
+                              >
+                                <span
+                                  aria-expanded={false}
+                                  aria-haspopup={true}
+                                  className="nav-link dropdown-toggle"
+                                  onClick={[Function]}
+                                >
+                                  Task
+                                </span>
+                              </Target>
+                            </DropdownToggle>
+                            <DropdownMenu
+                              flip={true}
+                              tag="div"
+                            >
+                              <div
+                                aria-hidden={true}
+                                className="dropdown-menu"
+                                role="menu"
+                                tabIndex="-1"
+                              >
+                                <DropdownItem
+                                  key="0"
+                                  tag="button"
+                                  toggle={true}
+                                >
+                                  <button
+                                    className="dropdown-item"
+                                    onClick={[Function]}
+                                    tabIndex="0"
+                                    type="button"
+                                  >
+                                    <Link
+                                      className="nav-link"
+                                      data-key="2"
+                                      key="1"
+                                      replace={false}
+                                      to="/forms/?search=&page=1"
+                                    >
+                                      <a
+                                        className="nav-link"
+                                        data-key="2"
+                                        href="/forms/?search=&page=1"
+                                        onClick={[Function]}
+                                      >
+                                        All
+                                      </a>
+                                    </Link>
+                                  </button>
+                                </DropdownItem>
+                                <DropdownItem
+                                  key="1"
+                                  tag="button"
+                                  toggle={true}
+                                >
+                                  <button
+                                    className="dropdown-item"
+                                    onClick={[Function]}
+                                    tabIndex="0"
+                                    type="button"
+                                  >
+                                    <Link
+                                      className="nav-link"
+                                      data-key="1"
+                                      key="1"
+                                      replace={false}
+                                      to="/forms/?search=&page=1&has_task=true"
+                                    >
+                                      <a
+                                        className="nav-link"
+                                        data-key="1"
+                                        href="/forms/?search=&page=1&has_task=true"
+                                        onClick={[Function]}
+                                      >
+                                        Has Task
+                                      </a>
+                                    </Link>
+                                  </button>
+                                </DropdownItem>
+                                <DropdownItem
+                                  key="2"
+                                  tag="button"
+                                  toggle={true}
+                                >
+                                  <button
+                                    className="dropdown-item"
+                                    onClick={[Function]}
+                                    tabIndex="0"
+                                    type="button"
+                                  >
+                                    <Link
+                                      className="nav-link"
+                                      data-key="0"
+                                      key="0"
+                                      replace={false}
+                                      to="/forms/?search=&page=1&has_task=false"
+                                    >
+                                      <a
+                                        className="nav-link"
+                                        data-key="0"
+                                        href="/forms/?search=&page=1&has_task=false"
+                                        onClick={[Function]}
+                                      >
+                                        Does Not Have Task
+                                      </a>
+                                    </Link>
+                                  </button>
+                                </DropdownItem>
+                              </div>
+                            </DropdownMenu>
+                          </div>
+                        </Manager>
+                      </Dropdown>
+                    </th>
+                    <th
+                      key="3"
+                    >
+                      Last Modified
+                    </th>
+                  </ElementMap>
+                </tr>
+              </thead>
+              <tbody>
+                <tr
+                  key="1"
+                >
+                  <ElementMap
+                    HTMLTag="td"
+                    items={
+                      Array [
+                        <div>
+                          Form 1
+                        </div>,
+                        "true",
+                        null,
+                        <t
+                          ago={false}
+                          calendar={false}
+                          decimal={false}
+                          element="time"
+                          filter={[Function]}
+                          format="DD-MM-YYYY HH:mm:ss"
+                          fromNow={false}
+                          interval={60000}
+                          onChange={[Function]}
+                          toNow={false}
+                          unit={null}
+                          unix={false}
+                          utc={false}
+                        >
+                          2018-06-21T12:15:23.170313+03:00
+                        </t>,
+                      ]
+                    }
+                  >
+                    <td
+                      key="0"
+                    >
+                      <div
+                        key="1"
+                      >
+                        Form 1
+                      </div>
+                    </td>
+                    <td
+                      key="1"
+                    >
+                      true
+                    </td>
+                    <td
+                      key="2"
+                    />
+                    <td
+                      key="3"
+                    >
+                      <t
+                        ago={false}
+                        calendar={false}
+                        decimal={false}
+                        element="time"
+                        filter={[Function]}
+                        format="DD-MM-YYYY HH:mm:ss"
+                        fromNow={false}
+                        interval={60000}
+                        key="1"
+                        onChange={[Function]}
+                        toNow={false}
+                        unit={null}
+                        unix={false}
+                        utc={false}
+                      >
+                        <time
+                          dateTime={"2018-06-21T09:15:23.170Z"}
+                        >
+                          21-06-2018 09:15:23
+                        </time>
+                      </t>
+                    </td>
+                  </ElementMap>
+                </tr>
+                <tr
+                  key="2"
+                >
+                  <ElementMap
+                    HTMLTag="td"
+                    items={
+                      Array [
+                        <div>
+                          Form 2
+                        </div>,
+                        "false",
+                        null,
+                        <t
+                          ago={false}
+                          calendar={false}
+                          decimal={false}
+                          element="time"
+                          filter={[Function]}
+                          format="DD-MM-YYYY HH:mm:ss"
+                          fromNow={false}
+                          interval={60000}
+                          onChange={[Function]}
+                          toNow={false}
+                          unit={null}
+                          unix={false}
+                          utc={false}
+                        >
+                          2018-06-21T12:15:23.175232+03:00
+                        </t>,
+                      ]
+                    }
+                  >
+                    <td
+                      key="0"
+                    >
+                      <div
+                        key="2"
+                      >
+                        Form 2
+                      </div>
+                    </td>
+                    <td
+                      key="1"
+                    >
+                      false
+                    </td>
+                    <td
+                      key="2"
+                    />
+                    <td
+                      key="3"
+                    >
+                      <t
+                        ago={false}
+                        calendar={false}
+                        decimal={false}
+                        element="time"
+                        filter={[Function]}
+                        format="DD-MM-YYYY HH:mm:ss"
+                        fromNow={false}
+                        interval={60000}
+                        key="2"
+                        onChange={[Function]}
+                        toNow={false}
+                        unit={null}
+                        unix={false}
+                        utc={false}
+                      >
+                        <time
+                          dateTime={"2018-06-21T09:15:23.175Z"}
+                        >
+                          21-06-2018 09:15:23
+                        </time>
+                      </t>
+                    </td>
+                  </ElementMap>
+                </tr>
+                <tr
+                  key="3"
+                >
+                  <ElementMap
+                    HTMLTag="td"
+                    items={
+                      Array [
+                        <div>
+                          Form 3
+                          <MisconfiguredForm
+                            form={
+                              Object {
+                                "attributes": Object {
+                                  "created": "2018-06-21T12:15:23.175198+03:00",
+                                  "deleted_at": null,
+                                  "has_task": true,
+                                  "id_string": "form_3",
+                                  "last_updated": null,
+                                  "metadata": Object {
+                                    "configuration_status": "members_cannot_submit",
+                                    "downloadable": true,
+                                    "owner": "kaznet",
+                                    "owner_url": "http://127.0.0.1:8000/api/v1/users/kaznet",
+                                  },
+                                  "modified": "2018-06-21T12:15:23.175232+03:00",
+                                  "ona_pk": 6373,
+                                  "project_id": 5522,
+                                  "task_name": "Form 3 Task",
+                                  "title": "Form 3",
+                                },
+                                "id": "3",
+                                "type": "XForm",
+                              }
+                            }
+                          />
+                        </div>,
+                        "true",
+                        "Form 3 Task",
+                        <t
+                          ago={false}
+                          calendar={false}
+                          decimal={false}
+                          element="time"
+                          filter={[Function]}
+                          format="DD-MM-YYYY HH:mm:ss"
+                          fromNow={false}
+                          interval={60000}
+                          onChange={[Function]}
+                          toNow={false}
+                          unit={null}
+                          unix={false}
+                          utc={false}
+                        >
+                          2018-06-21T12:15:23.175232+03:00
+                        </t>,
+                      ]
+                    }
+                  >
+                    <td
+                      key="0"
+                    >
+                      <div
+                        key="3"
+                      >
+                        Form 3
+                        <MisconfiguredForm
+                          form={
+                            Object {
+                              "attributes": Object {
+                                "created": "2018-06-21T12:15:23.175198+03:00",
+                                "deleted_at": null,
+                                "has_task": true,
+                                "id_string": "form_3",
+                                "last_updated": null,
+                                "metadata": Object {
+                                  "configuration_status": "members_cannot_submit",
+                                  "downloadable": true,
+                                  "owner": "kaznet",
+                                  "owner_url": "http://127.0.0.1:8000/api/v1/users/kaznet",
+                                },
+                                "modified": "2018-06-21T12:15:23.175232+03:00",
+                                "ona_pk": 6373,
+                                "project_id": 5522,
+                                "task_name": "Form 3 Task",
+                                "title": "Form 3",
+                              },
+                              "id": "3",
+                              "type": "XForm",
+                            }
+                          }
+                          key="3"
+                        >
+                          <span>
+                              
+                            <FontAwesomeIcon
+                              border={false}
+                              className=""
+                              color="#711c27"
+                              fixedWidth={false}
+                              flip={null}
+                              icon="exclamation-circle"
+                              id="Popover-3"
+                              listItem={false}
+                              mask={null}
+                              name=""
+                              onClick={[Function]}
+                              pull={null}
+                              pulse={false}
+                              rotation={null}
+                              size={null}
+                              spin={false}
+                              style={
+                                Object {
+                                  "cursor": "pointer",
+                                }
+                              }
+                              symbol={false}
+                              transform={null}
+                            >
+                              <svg
+                                aria-hidden="true"
+                                className="svg-inline--fa fa-exclamation-circle fa-w-16 "
+                                color="#711c27"
+                                data-icon="exclamation-circle"
+                                data-prefix="fas"
+                                id="Popover-3"
+                                onClick={[Function]}
+                                role="img"
+                                style={
+                                  Object {
+                                    "cursor": "pointer",
+                                  }
+                                }
+                                viewBox="0 0 512 512"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"
+                                  fill="currentColor"
+                                  style={Object {}}
+                                />
+                              </svg>
+                            </FontAwesomeIcon>
+                            <Popover
+                              delay={
+                                Object {
+                                  "hide": 0,
+                                  "show": 0,
+                                }
+                              }
+                              hideArrow={false}
+                              isOpen={false}
+                              placement="right"
+                              placementPrefix="bs-popover"
+                              target="Popover-3"
+                              toggle={[Function]}
+                            />
+                          </span>
+                        </MisconfiguredForm>
+                      </div>
+                    </td>
+                    <td
+                      key="1"
+                    >
+                      true
+                    </td>
+                    <td
+                      key="2"
+                    >
+                      Form 3 Task
+                    </td>
+                    <td
+                      key="3"
+                    >
+                      <t
+                        ago={false}
+                        calendar={false}
+                        decimal={false}
+                        element="time"
+                        filter={[Function]}
+                        format="DD-MM-YYYY HH:mm:ss"
+                        fromNow={false}
+                        interval={60000}
+                        key="3"
+                        onChange={[Function]}
+                        toNow={false}
+                        unit={null}
+                        unix={false}
+                        utc={false}
+                      >
+                        <time
+                          dateTime={"2018-06-21T09:15:23.175Z"}
+                        >
+                          21-06-2018 09:15:23
+                        </time>
+                      </t>
+                    </td>
+                  </ElementMap>
+                </tr>
+              </tbody>
+            </table>
+          </Table>
+          <Pagination
+            aria-label="Kaznet listview"
+            listTag="ul"
+            tag="nav"
+          >
+            <nav
+              aria-label="Kaznet listview"
+              className=""
+            >
+              <ul
+                className="pagination"
+              >
+                <PaginationItem
+                  disabled={false}
+                  tag="li"
+                >
+                  <li
+                    className="page-item"
+                  >
+                    <Link
+                      aria-label="First"
+                      className="page-link"
+                      replace={false}
+                      to="/forms/?search=&page=1"
+                    >
+                      <a
+                        aria-label="First"
+                        className="page-link"
+                        href="/forms/?search=&page=1"
+                        onClick={[Function]}
+                      >
+                        First
+                      </a>
+                    </Link>
+                  </li>
+                </PaginationItem>
+                <PaginationItem
+                  disabled={true}
+                  tag="li"
+                >
+                  <li
+                    className="page-item disabled"
+                  >
+                    <Link
+                      aria-label="Previous"
+                      className="page-link"
+                      replace={false}
+                      to="#"
+                    >
+                      <a
+                        aria-label="Previous"
+                        className="page-link"
+                        href="/"
+                        onClick={[Function]}
+                      >
+                        «
+                      </a>
+                    </Link>
+                  </li>
+                </PaginationItem>
+                <PaginationItem
+                  disabled={false}
+                  tag="li"
+                >
+                  <li
+                    className="page-item"
+                  >
+                    <Link
+                      aria-label="Next"
+                      className="page-link"
+                      replace={false}
+                      to="/forms/?search=&page=2"
+                    >
+                      <a
+                        aria-label="Next"
+                        className="page-link"
+                        href="/forms/?search=&page=2"
+                        onClick={[Function]}
+                      >
+                        »
+                      </a>
+                    </Link>
+                  </li>
+                </PaginationItem>
+                <PaginationItem
+                  disabled={false}
+                  tag="li"
+                >
+                  <li
+                    className="page-item"
+                  >
+                    <Link
+                      aria-label="Last"
+                      className="page-link"
+                      replace={false}
+                      to="/forms/?search=&page=2"
+                    >
+                      <a
+                        aria-label="Last"
+                        className="page-link"
+                        href="/forms/?search=&page=2"
+                        onClick={[Function]}
+                      >
+                        Last
+                      </a>
+                    </Link>
+                  </li>
+                </PaginationItem>
+              </ul>
+            </nav>
+          </Pagination>
+        </div>
+      </ListView>
+    </div>
+  </FormsList>
+</Router>
+`;

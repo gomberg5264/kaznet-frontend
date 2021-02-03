@@ -1,0 +1,345 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/clients/ClientsList renders client list correctly 1`] = `
+<Router
+  history={
+    Object {
+      "action": "POP",
+      "block": [Function],
+      "createHref": [Function],
+      "go": [Function],
+      "goBack": [Function],
+      "goForward": [Function],
+      "length": 1,
+      "listen": [Function],
+      "location": Object {
+        "hash": "",
+        "pathname": "/",
+        "search": "",
+        "state": undefined,
+      },
+      "push": [Function],
+      "replace": [Function],
+    }
+  }
+>
+  <ClientsList
+    changePageNumber={[Function]}
+    changePageTarget={[Function]}
+    changePageTitle={[Function]}
+    changePageTitleButton={[Function]}
+    currentPage={1}
+    endpoint="clients"
+    fetchClients={[Function]}
+    firstPage={1}
+    lastPage={2}
+    location={
+      Object {
+        "hash": "",
+        "pathname": "/",
+        "search": "",
+        "state": undefined,
+      }
+    }
+    pageLinks={
+      Object {
+        "first": "http://localhost:8000/api/v1/clients/?search=&page=1",
+        "last": "http://localhost:8000/api/v1/clients/?search=&page=2",
+        "next": "http://localhost:8000/api/v1/clients/?search=&page=2",
+        "prev": null,
+      }
+    }
+    rowsById={
+      Object {
+        "1": Object {
+          "attributes": Object {
+            "created": "2018-06-21T13:51:54.011373+03:00",
+            "name": "Sol",
+          },
+          "id": "1",
+          "type": "Client",
+        },
+      }
+    }
+    rowsIdArray={
+      Array [
+        "1",
+      ]
+    }
+    searchParam=""
+    searchVal={[Function]}
+    showListTitle={[Function]}
+    totalPages={2}
+  >
+    <div
+      className="ClientsList"
+    >
+      <ListView
+        currentPage={1}
+        endpoint="clients"
+        firstPage={1}
+        lastPage={2}
+        pageLinks={
+          Object {
+            "first": "http://localhost:8000/api/v1/clients/?search=&page=1",
+            "last": "http://localhost:8000/api/v1/clients/?search=&page=2",
+            "next": "http://localhost:8000/api/v1/clients/?search=&page=2",
+            "prev": null,
+          }
+        }
+        renderHeaders={[Function]}
+        renderRow={[Function]}
+        rowsById={
+          Object {
+            "1": Object {
+              "attributes": Object {
+                "created": "2018-06-21T13:51:54.011373+03:00",
+                "name": "Sol",
+              },
+              "id": "1",
+              "type": "Client",
+            },
+          }
+        }
+        rowsIdArray={
+          Array [
+            "1",
+          ]
+        }
+        searchVal=""
+        sortField="modified"
+        sortOrder="desc"
+        totalPages={2}
+      >
+        <div>
+          <Table
+            bordered={true}
+            className="kaznet-table"
+            responsiveTag="div"
+            tag="table"
+          >
+            <table
+              className="kaznet-table table table-bordered"
+            >
+              <thead>
+                <tr>
+                  <ElementMap
+                    HTMLTag="th"
+                    items={
+                      Array [
+                        "Name",
+                        "Created",
+                      ]
+                    }
+                  >
+                    <th
+                      key="0"
+                    >
+                      Name
+                    </th>
+                    <th
+                      key="1"
+                    >
+                      Created
+                    </th>
+                  </ElementMap>
+                </tr>
+              </thead>
+              <tbody>
+                <tr
+                  key="1"
+                >
+                  <ElementMap
+                    HTMLTag="td"
+                    items={
+                      Array [
+                        <Link
+                          replace={false}
+                          to="/clients/edit/1"
+                        >
+                          Sol
+                        </Link>,
+                        <t
+                          ago={false}
+                          calendar={false}
+                          decimal={false}
+                          element="time"
+                          filter={[Function]}
+                          format="DD-MM-YYYY"
+                          fromNow={false}
+                          interval={60000}
+                          onChange={[Function]}
+                          toNow={false}
+                          unit={null}
+                          unix={false}
+                          utc={false}
+                        >
+                          2018-06-21T13:51:54.011373+03:00
+                        </t>,
+                      ]
+                    }
+                  >
+                    <td
+                      key="0"
+                    >
+                      <Link
+                        key="link_to"
+                        replace={false}
+                        to="/clients/edit/1"
+                      >
+                        <a
+                          href="/clients/edit/1"
+                          onClick={[Function]}
+                        >
+                          Sol
+                        </a>
+                      </Link>
+                    </td>
+                    <td
+                      key="1"
+                    >
+                      <t
+                        ago={false}
+                        calendar={false}
+                        decimal={false}
+                        element="time"
+                        filter={[Function]}
+                        format="DD-MM-YYYY"
+                        fromNow={false}
+                        interval={60000}
+                        key="1"
+                        onChange={[Function]}
+                        toNow={false}
+                        unit={null}
+                        unix={false}
+                        utc={false}
+                      >
+                        <time
+                          dateTime={"2018-06-21T10:51:54.011Z"}
+                        >
+                          21-06-2018
+                        </time>
+                      </t>
+                    </td>
+                  </ElementMap>
+                </tr>
+              </tbody>
+            </table>
+          </Table>
+          <Pagination
+            aria-label="Kaznet listview"
+            listTag="ul"
+            tag="nav"
+          >
+            <nav
+              aria-label="Kaznet listview"
+              className=""
+            >
+              <ul
+                className="pagination"
+              >
+                <PaginationItem
+                  disabled={false}
+                  tag="li"
+                >
+                  <li
+                    className="page-item"
+                  >
+                    <Link
+                      aria-label="First"
+                      className="page-link"
+                      replace={false}
+                      to="/clients/?search=&page=1"
+                    >
+                      <a
+                        aria-label="First"
+                        className="page-link"
+                        href="/clients/?search=&page=1"
+                        onClick={[Function]}
+                      >
+                        First
+                      </a>
+                    </Link>
+                  </li>
+                </PaginationItem>
+                <PaginationItem
+                  disabled={true}
+                  tag="li"
+                >
+                  <li
+                    className="page-item disabled"
+                  >
+                    <Link
+                      aria-label="Previous"
+                      className="page-link"
+                      replace={false}
+                      to="#"
+                    >
+                      <a
+                        aria-label="Previous"
+                        className="page-link"
+                        href="/"
+                        onClick={[Function]}
+                      >
+                        «
+                      </a>
+                    </Link>
+                  </li>
+                </PaginationItem>
+                <PaginationItem
+                  disabled={false}
+                  tag="li"
+                >
+                  <li
+                    className="page-item"
+                  >
+                    <Link
+                      aria-label="Next"
+                      className="page-link"
+                      replace={false}
+                      to="/clients/?search=&page=2"
+                    >
+                      <a
+                        aria-label="Next"
+                        className="page-link"
+                        href="/clients/?search=&page=2"
+                        onClick={[Function]}
+                      >
+                        »
+                      </a>
+                    </Link>
+                  </li>
+                </PaginationItem>
+                <PaginationItem
+                  disabled={false}
+                  tag="li"
+                >
+                  <li
+                    className="page-item"
+                  >
+                    <Link
+                      aria-label="Last"
+                      className="page-link"
+                      replace={false}
+                      to="/clients/?search=&page=2"
+                    >
+                      <a
+                        aria-label="Last"
+                        className="page-link"
+                        href="/clients/?search=&page=2"
+                        onClick={[Function]}
+                      >
+                        Last
+                      </a>
+                    </Link>
+                  </li>
+                </PaginationItem>
+              </ul>
+            </nav>
+          </Pagination>
+        </div>
+      </ListView>
+    </div>
+  </ClientsList>
+</Router>
+`;

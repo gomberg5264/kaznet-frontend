@@ -1,0 +1,598 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/task/StatisticsSection renders statistics correctly 1`] = `
+<StatisticsSection
+  accepted={1}
+  formURL="https://ona.io/kaznettest/64730/327942"
+  rejected={0}
+  review={0}
+  reward="0 KES"
+  task={
+    Object {
+      "attributes": Object {
+        "approved_submissions_count": 1,
+        "client_name": "Client 1",
+        "created": "2018-07-10T16:50:20.165320+03:00",
+        "created_by_name": "Ona User",
+        "current_bounty_amount": "55 KES",
+        "description": "This is an awesome task",
+        "end": "2020-07-10T12:00:00+03:00",
+        "estimated_time": "00:15:00",
+        "modified": "2018-07-12T17:08:58.621899+03:00",
+        "name": "Kaznet",
+        "pending_submissions_count": 0,
+        "rejected_submissions_count": 0,
+        "required_expertise": "1",
+        "required_expertise_display": "Beginner",
+        "start": "2018-07-10T12:00:00+03:00",
+        "status": "a",
+        "status_display": "Active",
+        "submission_count": 0,
+        "target_id": 20,
+        "task_locations": Array [
+          Object {
+            "created": "2018-07-12T17:38:21.527548+03:00",
+            "end": "18:00:00",
+            "location": Object {
+              "id": "1",
+              "type": "Location",
+            },
+            "location_description": "Voi is cool",
+            "location_name": "Voi",
+            "modified": "2018-07-12T17:38:21.527572+03:00",
+            "start": "06:00:00",
+            "task": Object {
+              "id": "4",
+              "type": "Task",
+            },
+            "timing_rule": "FREQ=MONTHLY;INTERVAL=1;BYMONTHDAY=1",
+          },
+        ],
+        "timing_rule": "FREQ=WEEKLY;INTERVAL=1;BYDAY=FR,SA",
+        "total_bounty_payout": "0 KES",
+        "total_submission_target": null,
+        "user_submission_target": 10,
+        "xform_id_string": "Baseline_Questionnaire",
+        "xform_title": "Baseline_Questionnaire",
+      },
+      "id": "999",
+      "relationships": Object {
+        "bounty": Object {
+          "data": null,
+        },
+        "client": Object {
+          "data": Object {
+            "id": "1",
+            "type": "Client",
+          },
+        },
+        "created_by": Object {
+          "data": Object {
+            "id": "3",
+            "type": "User",
+          },
+        },
+        "locations": Object {
+          "data": Array [
+            Object {
+              "id": "1",
+              "type": "Location",
+            },
+          ],
+          "meta": Object {
+            "count": 1,
+          },
+        },
+        "parent": Object {
+          "data": null,
+        },
+        "segment_rules": Object {
+          "data": Array [],
+          "meta": Object {
+            "count": 0,
+          },
+        },
+        "target_content_type": Object {
+          "data": Object {
+            "id": "16",
+            "type": "ContentType",
+          },
+        },
+      },
+      "type": "Task",
+    }
+  }
+  totalSubmissions={0}
+>
+  <Col
+    md={
+      Object {
+        "offset": 2,
+        "size": 8,
+      }
+    }
+    sm="12"
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <div
+      className="col-sm-12 col-md-8 offset-md-2"
+    >
+      <Row
+        tag="div"
+      >
+        <div
+          className="row"
+        >
+          <Col
+            className="kaznet-sub"
+            sm="3"
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <div
+              className="kaznet-sub col-sm-3"
+            >
+              <p
+                className="kaznet-stats-count"
+              >
+                0
+                 Submissions
+              </p>
+            </div>
+          </Col>
+          <Col
+            className="kaznet-sub"
+            sm="9"
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <div
+              className="kaznet-sub col-sm-9"
+            >
+              <a
+                className="btn btn-primary text-white"
+                href="https://ona.io/kaznettest/64730/327942"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <FontAwesomeIcon
+                  border={false}
+                  className=""
+                  fixedWidth={false}
+                  flip={null}
+                  icon="clone"
+                  listItem={false}
+                  mask={null}
+                  name=""
+                  pull={null}
+                  pulse={false}
+                  rotation={null}
+                  size={null}
+                  spin={false}
+                  symbol={false}
+                  transform={null}
+                >
+                  <svg
+                    aria-hidden="true"
+                    className="svg-inline--fa fa-clone fa-w-16 "
+                    data-icon="clone"
+                    data-prefix="fas"
+                    role="img"
+                    style={Object {}}
+                    viewBox="0 0 512 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M464 0c26.51 0 48 21.49 48 48v288c0 26.51-21.49 48-48 48H176c-26.51 0-48-21.49-48-48V48c0-26.51 21.49-48 48-48h288M176 416c-44.112 0-80-35.888-80-80V128H48c-26.51 0-48 21.49-48 48v288c0 26.51 21.49 48 48 48h288c26.51 0 48-21.49 48-48v-48H176z"
+                      fill="currentColor"
+                      style={Object {}}
+                    />
+                  </svg>
+                </FontAwesomeIcon>
+                Review all submissions
+              </a>
+            </div>
+          </Col>
+        </div>
+      </Row>
+      <Row
+        tag="div"
+      >
+        <div
+          className="row"
+        >
+          <Col
+            sm="6"
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <div
+              className="col-sm-6"
+            >
+              <Row
+                tag="div"
+              >
+                <div
+                  className="row"
+                >
+                  <Col
+                    className="kaznet-no-gutter"
+                    sm="6"
+                    tag="div"
+                    widths={
+                      Array [
+                        "xs",
+                        "sm",
+                        "md",
+                        "lg",
+                        "xl",
+                      ]
+                    }
+                  >
+                    <div
+                      className="kaznet-no-gutter col-sm-6"
+                    >
+                      <div
+                        className="kaznet-stats"
+                      >
+                        <p
+                          className="stats-data"
+                        >
+                          1
+                        </p>
+                        <p
+                          className="stats-header"
+                        >
+                          Accepted
+                          <a
+                            rel="noopener noreferrer"
+                            target="_blank"
+                          >
+                            <FontAwesomeIcon
+                              border={false}
+                              className="fa-xs icon-link withspace"
+                              fixedWidth={false}
+                              flip={null}
+                              icon="external-link-alt"
+                              listItem={false}
+                              mask={null}
+                              name=""
+                              pull={null}
+                              pulse={false}
+                              rotation={null}
+                              size={null}
+                              spin={false}
+                              symbol={false}
+                              transform={null}
+                            >
+                              <svg
+                                aria-hidden="true"
+                                className="svg-inline--fa fa-external-link-alt fa-w-18 fa-xs icon-link withspace"
+                                data-icon="external-link-alt"
+                                data-prefix="fas"
+                                role="img"
+                                style={Object {}}
+                                viewBox="0 0 576 512"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M576 24v127.984c0 21.461-25.96 31.98-40.971 16.971l-35.707-35.709-243.523 243.523c-9.373 9.373-24.568 9.373-33.941 0l-22.627-22.627c-9.373-9.373-9.373-24.569 0-33.941L442.756 76.676l-35.703-35.705C391.982 25.9 402.656 0 424.024 0H552c13.255 0 24 10.745 24 24zM407.029 270.794l-16 16A23.999 23.999 0 0 0 384 303.765V448H64V128h264a24.003 24.003 0 0 0 16.97-7.029l16-16C376.089 89.851 365.381 64 344 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V287.764c0-21.382-25.852-32.09-40.971-16.97z"
+                                  fill="currentColor"
+                                  style={Object {}}
+                                />
+                              </svg>
+                            </FontAwesomeIcon>
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </Col>
+                  <Col
+                    className="kaznet-no-gutter left-fix"
+                    sm="6"
+                    tag="div"
+                    widths={
+                      Array [
+                        "xs",
+                        "sm",
+                        "md",
+                        "lg",
+                        "xl",
+                      ]
+                    }
+                  >
+                    <div
+                      className="kaznet-no-gutter left-fix col-sm-6"
+                    >
+                      <div
+                        className="kaznet-stats"
+                      >
+                        <p
+                          className="stats-data"
+                        >
+                          0 KES
+                        </p>
+                        <p
+                          className="stats-header"
+                        >
+                          Total Reward
+                          <FontAwesomeIcon
+                            border={false}
+                            className="fa-xs icon-link withspace clickable-icon"
+                            fixedWidth={false}
+                            flip={null}
+                            icon="laptop"
+                            listItem={false}
+                            mask={null}
+                            name=""
+                            pull={null}
+                            pulse={false}
+                            rotation={null}
+                            size={null}
+                            spin={false}
+                            symbol={false}
+                            transform={null}
+                          >
+                            <svg
+                              aria-hidden="true"
+                              className="svg-inline--fa fa-laptop fa-w-20 fa-xs icon-link withspace clickable-icon"
+                              data-icon="laptop"
+                              data-prefix="fas"
+                              role="img"
+                              style={Object {}}
+                              viewBox="0 0 640 512"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M512 64v256H128V64h384m16-64H112C85.5 0 64 21.5 64 48v288c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zm100 416H389.5c-3 0-5.5 2.1-5.9 5.1C381.2 436.3 368 448 352 448h-64c-16 0-29.2-11.7-31.6-26.9-.5-2.9-3-5.1-5.9-5.1H12c-6.6 0-12 5.4-12 12v36c0 26.5 21.5 48 48 48h544c26.5 0 48-21.5 48-48v-36c0-6.6-5.4-12-12-12z"
+                                fill="currentColor"
+                                style={Object {}}
+                              />
+                            </svg>
+                          </FontAwesomeIcon>
+                        </p>
+                      </div>
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+            </div>
+          </Col>
+          <Col
+            className="overflow-fix"
+            sm="6"
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <div
+              className="overflow-fix col-sm-6"
+            >
+              <Row
+                tag="div"
+              >
+                <div
+                  className="row"
+                >
+                  <Col
+                    className="kaznet-stats-col"
+                    sm="6"
+                    tag="div"
+                    widths={
+                      Array [
+                        "xs",
+                        "sm",
+                        "md",
+                        "lg",
+                        "xl",
+                      ]
+                    }
+                  >
+                    <div
+                      className="kaznet-stats-col col-sm-6"
+                    >
+                      <div
+                        className="kaznet-stats"
+                      >
+                        <h1
+                          className="stats-data"
+                        >
+                          0
+                        </h1>
+                        <p
+                          className="stats-header"
+                        >
+                          Needs Review
+                          <a
+                            rel="noopener noreferrer"
+                            target="_blank"
+                          >
+                            <FontAwesomeIcon
+                              border={false}
+                              className="fa-xs icon-link withspace"
+                              fixedWidth={false}
+                              flip={null}
+                              icon="external-link-alt"
+                              listItem={false}
+                              mask={null}
+                              name=""
+                              pull={null}
+                              pulse={false}
+                              rotation={null}
+                              size={null}
+                              spin={false}
+                              symbol={false}
+                              transform={null}
+                            >
+                              <svg
+                                aria-hidden="true"
+                                className="svg-inline--fa fa-external-link-alt fa-w-18 fa-xs icon-link withspace"
+                                data-icon="external-link-alt"
+                                data-prefix="fas"
+                                role="img"
+                                style={Object {}}
+                                viewBox="0 0 576 512"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M576 24v127.984c0 21.461-25.96 31.98-40.971 16.971l-35.707-35.709-243.523 243.523c-9.373 9.373-24.568 9.373-33.941 0l-22.627-22.627c-9.373-9.373-9.373-24.569 0-33.941L442.756 76.676l-35.703-35.705C391.982 25.9 402.656 0 424.024 0H552c13.255 0 24 10.745 24 24zM407.029 270.794l-16 16A23.999 23.999 0 0 0 384 303.765V448H64V128h264a24.003 24.003 0 0 0 16.97-7.029l16-16C376.089 89.851 365.381 64 344 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V287.764c0-21.382-25.852-32.09-40.971-16.97z"
+                                  fill="currentColor"
+                                  style={Object {}}
+                                />
+                              </svg>
+                            </FontAwesomeIcon>
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </Col>
+                  <Col
+                    className="kaznet-stats-col"
+                    sm="6"
+                    tag="div"
+                    widths={
+                      Array [
+                        "xs",
+                        "sm",
+                        "md",
+                        "lg",
+                        "xl",
+                      ]
+                    }
+                  >
+                    <div
+                      className="kaznet-stats-col col-sm-6"
+                    >
+                      <div
+                        className="kaznet-stats overflow-fix"
+                      >
+                        <h1
+                          className="stats-data"
+                        >
+                          0
+                        </h1>
+                        <p
+                          className="stats-header"
+                        >
+                          Rejected
+                          <a
+                            rel="noopener noreferrer"
+                            target="_blank"
+                          >
+                            <FontAwesomeIcon
+                              border={false}
+                              className="fa-xs icon-link withspace"
+                              fixedWidth={false}
+                              flip={null}
+                              icon="external-link-alt"
+                              listItem={false}
+                              mask={null}
+                              name=""
+                              pull={null}
+                              pulse={false}
+                              rotation={null}
+                              size={null}
+                              spin={false}
+                              symbol={false}
+                              transform={null}
+                            >
+                              <svg
+                                aria-hidden="true"
+                                className="svg-inline--fa fa-external-link-alt fa-w-18 fa-xs icon-link withspace"
+                                data-icon="external-link-alt"
+                                data-prefix="fas"
+                                role="img"
+                                style={Object {}}
+                                viewBox="0 0 576 512"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M576 24v127.984c0 21.461-25.96 31.98-40.971 16.971l-35.707-35.709-243.523 243.523c-9.373 9.373-24.568 9.373-33.941 0l-22.627-22.627c-9.373-9.373-9.373-24.569 0-33.941L442.756 76.676l-35.703-35.705C391.982 25.9 402.656 0 424.024 0H552c13.255 0 24 10.745 24 24zM407.029 270.794l-16 16A23.999 23.999 0 0 0 384 303.765V448H64V128h264a24.003 24.003 0 0 0 16.97-7.029l16-16C376.089 89.851 365.381 64 344 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V287.764c0-21.382-25.852-32.09-40.971-16.97z"
+                                  fill="currentColor"
+                                  style={Object {}}
+                                />
+                              </svg>
+                            </FontAwesomeIcon>
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+              <ExportModal>
+                <div>
+                  <Modal
+                    autoFocus={true}
+                    backdrop={true}
+                    backdropTransition={
+                      Object {
+                        "mountOnEnter": true,
+                        "timeout": 150,
+                      }
+                    }
+                    centered={false}
+                    fade={true}
+                    isOpen={false}
+                    keyboard={true}
+                    modalTransition={
+                      Object {
+                        "timeout": 300,
+                      }
+                    }
+                    onClosed={[Function]}
+                    onOpened={[Function]}
+                    role="dialog"
+                    zIndex={1050}
+                  />
+                </div>
+              </ExportModal>
+            </div>
+          </Col>
+        </div>
+      </Row>
+      <hr />
+    </div>
+  </Col>
+</StatisticsSection>
+`;
